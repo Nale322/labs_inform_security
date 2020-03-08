@@ -11,7 +11,6 @@ def encryption(fock):
             encrypted = encrypted + alphabet[newPosition]
         else:
             encrypted = encrypted + letter
-    print(encrypted)
     return encrypted
 
 f1 = open('alo.txt', 'r')
