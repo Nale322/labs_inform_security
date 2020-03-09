@@ -13,9 +13,9 @@ def encryption(fock):
             encrypted = encrypted + letter
     return encrypted
 
-f1 = open('alo.txt', 'r')
+f1 = open('encrypt.txt', 'r')
 text = "".join(f1)
 gg = encryption(text)
-f2 = open('poka.txt', 'w')
+f2 = open('encrypted.txt', 'w')
 f2.writelines(gg)
 f2.close()
